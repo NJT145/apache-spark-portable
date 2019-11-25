@@ -30,5 +30,6 @@
 @REM end: comment following lines to run that on cmd.
 
 @echo running %SPARK_HOME%\bin\pyspark
+@cd %my_root%
 @cmd /K %SPARK_HOME%\bin\pyspark
 @endlocal
